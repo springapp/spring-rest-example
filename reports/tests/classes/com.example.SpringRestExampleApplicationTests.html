@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.example.SpringRestExampleApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.example.SpringRestExampleApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.example.html">com.example</a> &gt; SpringRestExampleApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.003s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads</td>
+<td>0.003s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>15:15:29.546 [Test worker] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.example.SpringRestExampleApplicationTests]
+15:15:29.550 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+15:15:29.554 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+15:15:29.562 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.SpringRestExampleApplicationTests] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+15:15:29.579 [Test worker] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@4e188c84 declaringClass = 'com.example.SpringRestExampleApplicationTests', classes = '{class com.example.SpringRestExampleApplication}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+15:15:29.587 [Test worker] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [com.example.SpringRestExampleApplicationTests]: class path resource [com/example/SpringRestExampleApplicationTests-context.xml] does not exist
+15:15:29.587 [Test worker] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [com.example.SpringRestExampleApplicationTests]: class path resource [com/example/SpringRestExampleApplicationTestsContext.groovy] does not exist
+15:15:29.587 [Test worker] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.example.SpringRestExampleApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:15:29.590 [Test worker] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.SpringRestExampleApplicationTests]
+15:15:29.594 [Test worker] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.SpringRestExampleApplicationTests]: using defaults.
+15:15:29.600 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+15:15:29.618 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2e530055, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@40becccd, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1039828b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5f78ed96, org.springframework.test.context.transaction.TransactionalTestExecutionListener@699f1f84, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5ff17ede]
+15:15:29.622 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.SpringRestExampleApplicationTests]
+15:15:29.622 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.SpringRestExampleApplicationTests]
+15:15:29.624 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.SpringRestExampleApplicationTests]
+15:15:29.624 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.SpringRestExampleApplicationTests]
+15:15:29.627 [Test worker] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@539fa085 testClass = SpringRestExampleApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@4d10cfe0 testClass = SpringRestExampleApplicationTests, locations = '{}', classes = '{class com.example.SpringRestExampleApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+15:15:29.627 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.SpringRestExampleApplicationTests]
+15:15:29.628 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.SpringRestExampleApplicationTests]
+15:15:29.629 [Test worker] DEBUG o.s.t.c.s.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@539fa085 testClass = SpringRestExampleApplicationTests, testInstance = com.example.SpringRestExampleApplicationTests@50c5c1cf, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@4d10cfe0 testClass = SpringRestExampleApplicationTests, locations = '{}', classes = '{class com.example.SpringRestExampleApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]].
+15:15:29.702 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+15:15:29.704 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+15:15:29.704 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+15:15:29.705 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.0.RELEASE)
+
+2015-12-07 15:15:29.935  INFO 45939 --- [    Test worker] c.e.SpringRestExampleApplicationTests    : Starting SpringRestExampleApplicationTests on C02ND2XZG3QD with PID 45939 (/Users/psaravanan/Documents/Demo/Spring_Rest/spring-rest-example/build/classes/test started by psaravanan in /Users/psaravanan/Documents/Demo/Spring_Rest/spring-rest-example)
+2015-12-07 15:15:29.935  INFO 45939 --- [    Test worker] c.e.SpringRestExampleApplicationTests    : No profiles are active
+2015-12-07 15:15:29.974  INFO 45939 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@33b164d9: startup date [Mon Dec 07 15:15:29 CST 2015]; root of context hierarchy
+2015-12-07 15:15:31.500  INFO 45939 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2015-12-07 15:15:31.518  INFO 45939 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2015-12-07 15:15:31.575  INFO 45939 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.11.Final}
+2015-12-07 15:15:31.577  INFO 45939 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2015-12-07 15:15:31.578  INFO 45939 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2015-12-07 15:15:31.742  INFO 45939 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-12-07 15:15:31.823  INFO 45939 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2015-12-07 15:15:31.917  INFO 45939 --- [    Test worker] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2015-12-07 15:15:32.195  INFO 45939 --- [    Test worker] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2015-12-07 15:15:32.202  INFO 45939 --- [    Test worker] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2015-12-07 15:15:32.681  INFO 45939 --- [    Test worker] c.example.SpringRestExampleApplication   : Persons found with findAll():
+2015-12-07 15:15:32.681  INFO 45939 --- [    Test worker] c.example.SpringRestExampleApplication   : -------------------------------
+2015-12-07 15:15:32.825  INFO 45939 --- [    Test worker] c.example.SpringRestExampleApplication   : Person[id=1, firstName='Jack', lastName='Bauer']
+2015-12-07 15:15:32.825  INFO 45939 --- [    Test worker] c.example.SpringRestExampleApplication   : Person[id=2, firstName='Chloe', lastName='O'Brian']
+2015-12-07 15:15:32.825  INFO 45939 --- [    Test worker] c.example.SpringRestExampleApplication   : Person[id=3, firstName='Kim', lastName='Bauer']
+2015-12-07 15:15:32.825  INFO 45939 --- [    Test worker] c.example.SpringRestExampleApplication   : Person[id=4, firstName='David', lastName='Palmer']
+2015-12-07 15:15:32.825  INFO 45939 --- [    Test worker] c.example.SpringRestExampleApplication   : Person[id=5, firstName='Michelle', lastName='Dessler']
+2015-12-07 15:15:32.826  INFO 45939 --- [    Test worker] c.example.SpringRestExampleApplication   : 
+2015-12-07 15:15:32.833  INFO 45939 --- [    Test worker] c.example.SpringRestExampleApplication   : Person found with findOne(1L):
+2015-12-07 15:15:32.833  INFO 45939 --- [    Test worker] c.example.SpringRestExampleApplication   : --------------------------------
+2015-12-07 15:15:32.833  INFO 45939 --- [    Test worker] c.example.SpringRestExampleApplication   : Person[id=1, firstName='Jack', lastName='Bauer']
+2015-12-07 15:15:32.833  INFO 45939 --- [    Test worker] c.example.SpringRestExampleApplication   : 
+2015-12-07 15:15:32.833  INFO 45939 --- [    Test worker] c.example.SpringRestExampleApplication   : Person found with findByLastName('Bauer'):
+2015-12-07 15:15:32.834  INFO 45939 --- [    Test worker] c.example.SpringRestExampleApplication   : --------------------------------------------
+2015-12-07 15:15:32.856  INFO 45939 --- [    Test worker] c.example.SpringRestExampleApplication   : Person[id=1, firstName='Jack', lastName='Bauer']
+2015-12-07 15:15:32.856  INFO 45939 --- [    Test worker] c.example.SpringRestExampleApplication   : Person[id=3, firstName='Kim', lastName='Bauer']
+2015-12-07 15:15:32.856  INFO 45939 --- [    Test worker] c.example.SpringRestExampleApplication   : 
+2015-12-07 15:15:32.858  INFO 45939 --- [    Test worker] c.e.SpringRestExampleApplicationTests    : Started SpringRestExampleApplicationTests in 3.15 seconds (JVM running for 4.071)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.7</a> at Dec 7, 2015 3:15:32 PM</p>
+</div>
+</div>
+</body>
+</html>
